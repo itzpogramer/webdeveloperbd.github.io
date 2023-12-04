@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1b1b1b;
+    color: #fff;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+/* navbar open */
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(3px);
+    position: fixed;
+    z-index: 1001;
+    top: 0;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar .logo {
+    margin-left: 40px;
+  }
+  
+  .nav-bar {
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+  
+  .nav-bar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-bar ul li {
+    padding-left: 10px;
+    cursor: pointer;
+    transition: all .2s ease;
+  }
+
+  .nav-bar ul li:hover {
+    color: #b3b3b3;
+  }
+  
+  .nav-bar ul li ul {
+    display: none;
+    position: absolute;
+    right: 140px;
+    padding: 10px 15px;
+    background: #272727;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 10vh;
+  }
+  
+  .nav-bar ul li a {
+    transition: all .2s ease;
+  }
+  
+  .nav-bar ul li a:hover {
+    color: #b3b3b3;
+  }
+  
+  .nav-bar .active {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .nav-bar .size {
+    font-size: 13px;
+  }
+  
+  #blog {
+    border: none;
+  }
+
+/** INFORMATIVE VIDEO **/
+
+.informative-videos {
+    margin-top: 20vh;
+    width: 100%;
+    height: 180vh;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15vh;
+    margin-left: 10vh;
+}
+
+.details {
+    margin-top: 10vh;
+    width: 40%;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.details a {
+    font-size: 35px;
+    color: #fff;
+}
+
+/** INFORMATIVE VIDEO **/
+
+
+
+/*! footer open */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    top: 200%;
+}
+
+.footer-logo {
+    width: 600px;
+    margin-left: 60px;
+}
+
+.footer-logo h2 {
+    width: 40%;
+    height: auto;
+}
+
+.footer-txt {
+    margin-left: 10px;
+    width: 70%;
+}
+
+.footer-icons {
+    margin-right: 50px;
+    color: #afafaf;
+}
+
+.footer-icons a {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.footer-icons a:last-child {
+    color: crimson;
+}
